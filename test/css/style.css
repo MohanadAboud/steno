@@ -6,4 +6,161 @@
 
 html {
   font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  color: aliceblue;
+}
+
+#baggrund {
+  display: flex;
+  position: absolute;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+#man_left {
+  position: absolute;
+  right: 70%;
+  height: 80%;
+  margin-top: 10%;
+}
+
+#moon_right {
+  position: absolute;
+  right: -1%;
+  top: -15%;
+}
+
+#moon_left {
+  position: absolute;
+  right: 88%;
+  top: -18%;
+}
+
+.Main_tekst_box {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  width: 50vh;
+  right: 30%;
+  top: 30%;
+}
+
+h1 {
+  padding-bottom: 30px;
+}
+
+.btn_start {
+  color: aliceblue;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+  right: 49%;
+  top: 75%;
+  cursor: pointer;
+}
+
+#man_mid {
+  position: absolute;
+  right: 40%;
+  height: 80%;
+  margin-top: 10%;
+}
+
+.pest_click {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  width: 33vh;
+  height: 33vh;
+  right: 40%;
+  top: 5%;
+}
+
+.kopper_click {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  width: 33vh;
+  height: 33vh;
+  right: 22%;
+  top: 5%;
+}
+
+.tuberkulose_click {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  width: 33vh;
+  height: 33vh;
+  right: 4%;
+  top: 5%;
+}
+
+.polio_click {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  width: 33vh;
+  height: 33vh;
+  right: 40%;
+  top: 50%;
+}
+
+.AIDS_click {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  width: 33vh;
+  height: 33vh;
+  right: 22%;
+  top: 50%;
+}
+.ebola_click {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 50px;
+  width: 33vh;
+  height: 33vh;
+  right: 4%;
+  top: 50%;
 }
