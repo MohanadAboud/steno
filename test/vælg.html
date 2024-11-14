@@ -9,55 +9,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="img/icon.svg" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="" />
   </head>
   <body>
     <img id="baggrund" src="img/background1.png" alt="" />
-
-    <audio autoplay id="myAudio">
-      <source src="audio/13. nov. 14.41_ (online-audio-converter.com).mp3" type="audio/mpeg" />
-    </audio>
     <img id="moon_left" src="img/moon.png" alt="moon" />
-
     <img id="man_left" src="img/pestman2.png" alt="pestman" />
 
     <section id="epidemier">
-      <a>
-        <div id="pest_click">
+      <a id="pest_click" data-disease="pest">
+        <div>
           <img src="img/Layer_1 (5).png" alt="pest" />
           <p>pest</p>
         </div>
       </a>
-      <a>
-        <div id="kopper_click">
+      <a id="kopper_click" data-disease="kopper">
+        <div>
           <img src="img/Layer_1 (6).png" alt="kopper" />
           <p>kopper</p>
         </div>
       </a>
-      <a>
-        <div id="tuberkulose_click">
+      <a id="tuberkulose_click" data-disease="tuberkulose">
+        <div>
           <img src="img/Layer_1 (7).png" alt="tuberkulose" />
           <p>tuberkulose</p>
         </div>
       </a>
-      <a>
-        <div id="polio_click">
+      <a id="polio_click" data-disease="polio">
+        <div>
           <img src="img/Layer_1 (8).png" alt="polio" />
           <p>polio</p>
         </div>
       </a>
-      <a>
-        <div id="AIDS_click">
+      <a id="AIDS_click" data-disease="AIDS">
+        <div>
           <img src="img/Layer_1 (9).png" alt="AIDS" />
           <p>AIDS</p>
         </div>
       </a>
-      <a>
-        <div id="ebola_click">
+      <a id="ebola_click" data-disease="ebola">
+        <div>
           <img src="img/Layer_1 (10).png" alt="ebola" />
           <p>ebola</p>
         </div>
       </a>
     </section>
+
+    <audio id="audioPlayer" preload="auto" style="display: none"></audio>
+
+    <script src="js/script.js"></script>
   </body>
 </html>

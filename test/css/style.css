@@ -97,7 +97,7 @@ h1 {
 
 /* knapper til at vælge sygdom */
 
-.pest_click {
+#pest_click {
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -110,9 +110,10 @@ h1 {
   height: 33vh;
   right: 40%;
   top: 5%;
+  cursor: pointer;
 }
 
-.kopper_click {
+#kopper_click {
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -125,9 +126,10 @@ h1 {
   height: 33vh;
   right: 22%;
   top: 5%;
+  cursor: pointer;
 }
 
-.tuberkulose_click {
+#tuberkulose_click {
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -140,9 +142,10 @@ h1 {
   height: 33vh;
   right: 4%;
   top: 5%;
+  cursor: pointer;
 }
 
-.polio_click {
+#polio_click {
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -155,9 +158,10 @@ h1 {
   height: 33vh;
   right: 40%;
   top: 50%;
+  cursor: pointer;
 }
 
-.AIDS_click {
+#AIDS_click {
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -170,8 +174,9 @@ h1 {
   height: 33vh;
   right: 22%;
   top: 50%;
+  cursor: pointer;
 }
-.ebola_click {
+#ebola_click {
   position: absolute;
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -184,6 +189,7 @@ h1 {
   height: 33vh;
   right: 4%;
   top: 50%;
+  cursor: pointer;
 }
 
 body > section > a:nth-child(1) > div > p {
@@ -205,47 +211,10 @@ body > section > a:nth-child(6) > div > p {
   color: aliceblue;
 }
 
-/* om epidimierne */
-#man_right {
-  position: absolute;
-  right: 15%;
-  height: 80%;
-  margin-top: 10%;
-}
-
-#disease-container {
-  position: absolute;
-  width: 300px; /* Box width */
-  padding: 20px;
-  margin-left: 20px; /* Add margin to push it from the left edge */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the box */
-  position: fixed; /* Fixed position on the left side */
-  top: 20px; /* Distance from the top */
-  left: 20px; /* Distance from the left */
-  max-height: 90vh; /* Limit the box height */
-  overflow-y: auto; /* Allow scrolling if content overflows */
-  z-index: 1; /* Ensure the box appears above the background */
-}
-
-#disease-name {
-  position: absolute;
-  font-size: 24px;
-  font-weight: bold;
+.slut {
   color: aliceblue;
-  margin-bottom: 10px;
-}
-
-#disease-description {
-  font-size: 18px;
-  font-weight: normal;
-  color: aliceblue;
-  margin-bottom: 15px;
-}
-
-#disease-symptoms,
-#disease-treatment {
-  font-size: 16px;
-  color: aliceblue;
-  line-height: 1.6;
+  position: absolute;
+  right: 50%;
+  top: 10%;
+  font-size: larger;
 }
