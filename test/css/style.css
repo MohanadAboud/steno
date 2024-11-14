@@ -38,16 +38,35 @@ html {
 
 .Main_tekst_box {
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 50px;
   width: 50vh;
   right: 30%;
   top: 30%;
+}
+
+#hvad_er_en_pestman {
+  position: absolute;
+  right: 80%;
+  top: 10%;
+  transform: rotate(-25deg);
+}
+.arrow {
+  position: absolute;
+  right: 80%;
+  top: 15%;
+}
+
+.back_arrow {
+  transform: rotate(130deg);
+  position: absolute;
+  right: 95%;
+  top: 5%;
 }
 
 h1 {
@@ -57,10 +76,10 @@ h1 {
 .btn_start {
   color: aliceblue;
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 10px;
@@ -76,12 +95,14 @@ h1 {
   margin-top: 10%;
 }
 
+/* knapper til at vælge sygdom */
+
 .pest_click {
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 50px;
@@ -93,10 +114,10 @@ h1 {
 
 .kopper_click {
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 50px;
@@ -108,10 +129,10 @@ h1 {
 
 .tuberkulose_click {
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 50px;
@@ -123,10 +144,10 @@ h1 {
 
 .polio_click {
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 50px;
@@ -138,10 +159,10 @@ h1 {
 
 .AIDS_click {
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 50px;
@@ -152,10 +173,10 @@ h1 {
 }
 .ebola_click {
   position: absolute;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(7.5px);
-  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 50px;
@@ -163,4 +184,68 @@ h1 {
   height: 33vh;
   right: 4%;
   top: 50%;
+}
+
+body > section > a:nth-child(1) > div > p {
+  color: aliceblue;
+}
+body > section > a:nth-child(2) > div > p {
+  color: aliceblue;
+}
+body > section > a:nth-child(3) > div > p {
+  color: aliceblue;
+}
+body > section > a:nth-child(4) > div > p {
+  color: aliceblue;
+}
+body > section > a:nth-child(5) > div > p {
+  color: aliceblue;
+}
+body > section > a:nth-child(6) > div > p {
+  color: aliceblue;
+}
+
+/* om epidimierne */
+#man_right {
+  position: absolute;
+  right: 15%;
+  height: 80%;
+  margin-top: 10%;
+}
+
+#disease-container {
+  position: absolute;
+  width: 300px; /* Box width */
+  padding: 20px;
+  margin-left: 20px; /* Add margin to push it from the left edge */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the box */
+  position: fixed; /* Fixed position on the left side */
+  top: 20px; /* Distance from the top */
+  left: 20px; /* Distance from the left */
+  max-height: 90vh; /* Limit the box height */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  z-index: 1; /* Ensure the box appears above the background */
+}
+
+#disease-name {
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+#disease-description {
+  font-size: 18px;
+  font-weight: normal;
+  color: aliceblue;
+  margin-bottom: 15px;
+}
+
+#disease-symptoms,
+#disease-treatment {
+  font-size: 16px;
+  color: aliceblue;
+  line-height: 1.6;
 }

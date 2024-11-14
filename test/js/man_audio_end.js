@@ -1,3 +1,5 @@
+"use strict";
+
 // JavaScript function to handle redirect when audio finishes
 function handleAudioEnd() {
   window.location.href = "main.html"; // Change this to your desired URL

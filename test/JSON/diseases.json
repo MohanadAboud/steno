@@ -1,0 +1,47 @@
+{
+  "pest": {
+    "navn": "pest",
+
+    "hvad_er_pest": "Pest bliver forårsaget af en bakterie, der hedder Yersinia pestis. Den er meget lille og kan ikke ses med det blotte øje, men den kan findes i blodet og i lungerne hos mennesker, der er syge. Den findes også i rotter og andre små dyr, som kan sprede bakterien videre.",
+    "Symptomer": "Der er forskellige måder, pest kan vise sig på, og det afhænger af, hvilken form af pest man har.",
+    "Behandling_af_Pest": "Pest kan behandles med medicin, som kaldes antibiotika. Det er vigtigt at få behandling hurtigt, så sygdommen ikke udvikler sig til noget endnu mere alvorligt som sepsis (blodforgiftning) eller meningitis (hjernehindebetændelse), som kan være livstruende."
+  },
+
+  "kopper": {
+    "navn": "kopper",
+
+    "hvad_er_Skoldkopper": "Skoldkopper er en almindelig børnesygdom, der forårsages af en virus kaldet Varicella-Zoster virus (VZV). Det er en meget smitsom sygdom, som ofte rammer børn, men også voksne, der ikke har haft sygdommen tidligere, kan blive smittet. Skoldkopper er normalt ikke alvorlige, men kan i sjældne tilfælde føre til komplikationer.",
+    "Symptomer": "Let feber og følelsen af at være lidt syg. Efter et par dage får man et karakteristisk udslæt med små, væskefyldte blærer, som starter på ansigtet og kroppen og spreder sig til resten af kroppen.",
+    "Behandling_af_Skoldkopper": "Skoldkopper kræver normalt ikke behandling, og sygdommen går som regel over af sig selv. Det vigtigste er at undgå at kradse i blærerne, så man ikke får infektioner. Man kan hjælpe med at lindre kløen ved at bruge kolde omslag, tage kølige bade og bruge specielle cremer, som kan køle huden."
+  },
+  "tuberkulose": {
+    "navn": "tuberkulose",
+
+    "Hvad_er_tuberkulose": "Tuberkulose er en bakteriel infektion, der kan påvirke flere organer i kroppen, men mest almindeligt lungerne. Tuberkulose er en alvorlig sygdom, som hvert år forårsager millioner af nye tilfælde og dødsfald verden over. Selvom Tuberkulose i Danmark er blevet sjældnere.",
+    "Symptomer": "Hoste, der kan være blodig - Langvarig feber - Nattesved - Vægttab - Træthed og nedsat appetit",
+    "Behandling_af_tuberkulose": "Tuberkulose behandles med en kombination af antibiotika. Behandlingen varer typisk 6 måneder, hvor de første 2 måneder består af en intensiv fase med 4 antibiotikatyper og de sidste 4 måneder en vedligeholdelsesfase med 2 antibiotikatyper."
+  },
+
+  "poilio": {
+    "navn": "poilio",
+
+    "Hvad_er_poilio": "Polio, er en akut virusinfektion, som kan medføre varige og invaliderende lammelser. Polio var frem til midten af 1950'erne en almindelig og frygtet sygdom i Danmark. Især 1950'erne var præget af meget store polioepidemier i Danmark, og der er stadig patienter, der plages af senfølger efter de lammelser, de fik dengang, hvor de blev smittet som store børn eller unge voksne.",
+    "Symptomer": "En poliovirusinfektion forløber i de fleste tilfælde helt symptomfrit eller med milde, ukarakteristiske symptomer som feber, opkast, diarré og/eller ondt i halsen, men infektionen kan også vise sig som meningitis, lammelser og dødsfald.",
+    "Behandling_af_poilio": "Der findes ingen antivirale behandlinger mod polio. Behandlingen er symptomatisk og kan inkludere respiratorassistance og genoptræning af patienter med lammelser."
+  },
+  "aids": {
+    "navn": "aids",
+
+    "hvad_er_aids": "Hiv (human immundefekt virus) er et virus, der kan give sygdommen AIDS. Hiv kan smitte gennem blod, sex eller fra mor til barn ved fødsel eller amning. Hvis nogen har hiv, kan de have det resten af deres liv, men med den rigtige behandling kan de være raske og ikke smitte andre. ",
+    "Symptomer": "Nogle mennesker føler sig dårlige lige efter, de er blevet smittet med hiv. De får feber, udslæt eller føler sig trætte i et par dage til en uge. Mange får dog ikke nogen symptomer i starten.",
+    "Behandling_af_aids": "Der er medicin, som kan stoppe hiv fra at skade kroppen. Det kaldes ART (anti-retroviral terapi). Hvis man tager sin medicin hver dag, kan man leve et normalt liv, og man kan ikke smitte andre. Medicinen skal tages hele livet."
+  },
+
+  "ebola": {
+    "navn": "ebola",
+
+    "Hvad_er_ebola": "Ebola er en alvorlig sygdom, som forårsages af et virus kaldet Ebolavirus. Det er et meget farligt virus, og sygdommen er også kendt som blødningsfeber. Ebola findes i flere forskellige versioner, og de stammer fra Centralafrika.",
+    "Symptomer": "Når man bliver smittet med Ebola, tager det typisk 2 til 21 dage, før man får symptomer. De første symptomer ligner influenza med høj feber, træthed, hovedpine, muskelsmerter og mavesmerter. Efterhånden kan man få opkastning, diarré, hududslæt og blødninger både på huden og i indre organer. Det store væsketab kan gøre, at kroppens organer begynder at svigte.",
+    "Behandling_af_ebola": "Der findes ikke nogen speciel medicin mod Ebola, men man kan hjælpe patienten med at få det bedre ved at give væske. I nogle tilfælde kan folk også have brug for at få hjælp til at trække vejret, f.eks. ved brug af respirator."
+  }
+}
